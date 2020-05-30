@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43428" started-at="2020-05-22T12:54:53Z" finished-at="2020-05-22T12:55:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43428" started-at="2020-05-22T12:54:53Z" finished-at="2020-05-22T12:55:37Z">
+      <class name="TestAutomation.executor2">
+        <test-method status="PASS" signature="loadConfigFile()[pri:0, instance:TestAutomation.executor2@18be83e4]" name="loadConfigFile" is-config="true" duration-ms="3328" started-at="2020-05-22T18:24:53Z" description="This testcase is verifying loading of config file and opening browser" finished-at="2020-05-22T18:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfigFile -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:TestAutomation.executor2@18be83e4]" name="testHomePage" duration-ms="15736" started-at="2020-05-22T18:24:57Z" description="This testcase is validating homepage" finished-at="2020-05-22T18:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="testBillionairesPage()[pri:0, instance:TestAutomation.executor2@18be83e4]" name="testBillionairesPage" duration-ms="10128" started-at="2020-05-22T18:25:12Z" depends-on-methods="TestAutomation.executor2.testHomePage" finished-at="2020-05-22T18:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBillionairesPage -->
+        <test-method status="PASS" signature="testAdvisorPage()[pri:0, instance:TestAutomation.executor2@18be83e4]" name="testAdvisorPage" duration-ms="6690" started-at="2020-05-22T18:25:22Z" depends-on-methods="TestAutomation.executor2.testBillionairesPage, TestAutomation.executor2.testHomePage" finished-at="2020-05-22T18:25:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdvisorPage -->
+        <test-method status="PASS" signature="testSearchPage()[pri:0, instance:TestAutomation.executor2@18be83e4]" name="testSearchPage" duration-ms="6297" started-at="2020-05-22T18:25:29Z" depends-on-methods="TestAutomation.executor2.testAdvisorPage" finished-at="2020-05-22T18:25:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchPage -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:TestAutomation.executor2@18be83e4]" name="closeTest" is-config="true" duration-ms="1222" started-at="2020-05-22T18:25:35Z" finished-at="2020-05-22T18:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- TestAutomation.executor2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
